@@ -1,0 +1,31 @@
+li {
+  display: block;
+  margin-right: 30px;
+}
+
+button {
+    width: 240px;
+    height: 90px;
+    font: bold;
+    font-weight: bolder;
+    background-color: blue;
+    font-size: 25px;
+    border: 2px solid black;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: red;
+    color: aqua;
+    border-radius: 15px;
+    font-size: 40px;
+    font: italic;
+    transition:all 0.8s ease 0s;
+    transform: rotate(90deg);
+    transform-style: flat     ;
+}
+
+p {
+   font-weight: bold;
+}
